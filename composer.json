@@ -1,0 +1,30 @@
+{
+    "name": "unhan/payment",
+    "description": "支付宝支付、微信支付、招商一网通支付php SDK。方便快速接入，开源支付 php sdk",
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://github.com/unhann/payment",
+    "authors": [
+        {
+            "name": "unhan",
+            "email": "404678606@qq.com",
+            "homepage": "https://www.unhan.cn"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0",
+        "ext-bcmath": "*",
+        "ext-mbstring": "*",
+        "ext-json": "*",
+        "ext-simplexml": "*",
+        "ext-xml": "*",
+        "ext-openssl": "*",
+        "guzzlehttp/guzzle": "^6.0 || ^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "EiaComposer\\Payment\\": "src/"
+        }
+    }
+}
